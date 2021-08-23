@@ -1,0 +1,137 @@
+@media (max-width: 700px) {
+    :root {
+        font-size: 13px;
+    }
+}
+
+/*** The new CSS Reset - version 1.0.0 (last updated 8.7.2021) ***/
+/* Remove all the styles of the "User-Agent-Stylesheet", except for the 'display' property */
+*:where(:not(iframe, canvas, img, svg, video):not(svg *)){
+    all: unset;
+    display: revert;
+}
+/* Preferred box-sizing value */
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+/* Remove list styles (bullets/numbers) */
+ol, ul {
+    list-style: none;
+}
+/* For images to not be able to exceed their container */
+img {
+    max-width: 100%;
+}
+/* removes spacing between cells in tables */
+table{
+    border-collapse: collapse;
+}
+
+
+html {
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+
+// a {
+//     color: inherit;
+//     text-decoration: none;
+// }
+
+
+// /* //www.i-ryo.com/entry/2019/08/24/225050 */
+// input,
+// button,
+// select,
+// textarea,img {
+//     -webkit-appearance: none;
+//     -moz-appearance: none;
+//     appearance: none;
+//     background: transparent;
+//     border: none;
+//     border-radius: 0;
+//     font: inherit;
+//     outline: none;
+//     display: block;
+// }
+
+textarea {
+    resize: vertical;
+}
+// input {
+//     &:focus,&:active {
+//         outline: none;
+//     }
+//     &[type='checkbox'],&[type='radio'] {
+//         display: none;
+//     }
+//     &[type="range"] {
+//         cursor: pointer;
+//         &::-webkit-slider-thumb {
+//             -webkit-appearance: none;
+//             -moz-appearance: none;
+//             appearance: none;
+//         }
+//     }
+// }
+// summary {
+//     outline: none;
+// }
+// input[type='submit'],
+// input[type='button'],
+// label,
+// button,
+// select,summary {
+//     cursor: pointer;
+// }
+
+// ::placeholder {
+//     opacity: .3;
+// }
+
+// select::-ms-expand {
+//     display: none;
+// }
+
+
+body {
+    font-family: Helvetica, "游ゴシック", "Yu Gothic", YuGothic, -apple-system, Verdana, Meiryo;
+    font-size: 16px;
+    /* overflow: hidden; */
+    position: relative
+}
+
+body,html {
+    min-height: 100vh;
+}
+
+@supports (-webkit-touch-callout: none) {
+    body,
+    html {
+        min-height: -webkit-fill-available
+    }
+}
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+
+h1,h2,h3,h4,h5,h6,th {
+    font-weight: 900;
+    font-feature-settings: "palt";
+    word-wrap: break-word;
+    small {
+        font-size: .4em
+    }
+}
+
+#__next {
+    max-width: 1000px;
+    padding: 0 2rem;
+    margin: auto;
+    /* margin:5rem auto 0 auto */
+}
