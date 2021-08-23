@@ -37,7 +37,10 @@ export default function Home() {
         ></iframe>
       </header>
       <section className="flexCenter">
-        <Link href="https://docs.google.com/forms/d/e/1FAIpQLSdbwBYtz295ns4hITx5ECNAzPBnreto6Zz5aFVgo5bz-che_w/viewform">
+        <Link
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdbwBYtz295ns4hITx5ECNAzPBnreto6Zz5aFVgo5bz-che_w/viewform"
+          target="_blank"
+        >
           <a className="button">応募する</a>
         </Link>
       </section>
@@ -74,7 +77,10 @@ export default function Home() {
         </ol>
       </main>
       <section className="flexCenter">
-        <Link href="https://docs.google.com/forms/d/e/1FAIpQLSdbwBYtz295ns4hITx5ECNAzPBnreto6Zz5aFVgo5bz-che_w/viewform">
+        <Link
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdbwBYtz295ns4hITx5ECNAzPBnreto6Zz5aFVgo5bz-che_w/viewform"
+          target="_blank"
+        >
           <a className="button">応募する</a>
         </Link>
       </section>
