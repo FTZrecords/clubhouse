@@ -37,7 +37,7 @@ export default function Home() {
         ></iframe>
       </header>
       <section className="flexCenter">
-        <Link href="">
+        <Link href="https://docs.google.com/forms/d/e/1FAIpQLSdbwBYtz295ns4hITx5ECNAzPBnreto6Zz5aFVgo5bz-che_w/viewform">
           <a className="button">応募する</a>
         </Link>
       </section>
@@ -74,20 +74,35 @@ export default function Home() {
         </ol>
       </main>
       <section className="flexCenter">
-        <Link href="">
+        <Link href="https://docs.google.com/forms/d/e/1FAIpQLSdbwBYtz295ns4hITx5ECNAzPBnreto6Zz5aFVgo5bz-che_w/viewform">
           <a className="button">応募する</a>
         </Link>
       </section>
       <footer>
         <p>©︎FTZrecords</p>
         <p>
-          レーベル名：FTZ records<br/>担当者名：大川 琳生<br/>TEL：070-8420-5822<br/>
-          E-Mail：info@ftzrecords.com<br/>Twitter：@ftzrecords
+          レーベル名：FTZ records
+          <br />
+          担当者名：大川 琳生
+          <br />
+          TEL：070-8420-5822
+          <br />
+          E-Mail：info@ftzrecords.com
+          <br />
+          Twitter：@ftzrecords
         </p>
         <p>
           インディーズのさらに基盤となるインターネットレーベル・キュレーションメディア
-          FTZ records<br/>代表者：赤金 諒亮<br/>設立：2020年02月02日<br/>Tel：070-8420-5822<br/>
-          URL：http://www.ftzrecords.com<br/>
+          FTZ records
+          <br />
+          代表者：赤金 諒亮
+          <br />
+          設立：2020年02月02日
+          <br />
+          Tel：070-8420-5822
+          <br />
+          URL：http://www.ftzrecords.com
+          <br />
           事業内容：楽曲の管理、CD等の原盤制作、アーティスト・クリエイターの発掘・育成及び管理、音楽ソフト・商品の制作
         </p>
       </footer>
