@@ -28,6 +28,7 @@ export default function Home() {
             オンラインだからこそ繋がれる人と、ネットを活用するZ世代だからこそできることを行っていきます。
           </p>
           <p>ご応募お待ちしております。</p>
+          <p>対象：応募時点で学生の方</p>
         </div>
         <iframe
           src="https://open.spotify.com/embed/playlist/62pnS2szMPE2Sv4C3e8lS9"
