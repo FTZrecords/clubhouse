@@ -1,8 +1,17 @@
 $cMain: #f13245;
 
 .flex {
-    display: flex;
-    justify-content: space-between;
+    @media (min-width: 700px) {
+        display: flex;
+        justify-content: space-between;
+    }
+    iframe {
+        @media (max-width: 700px) {
+            margin-top: 3rem;
+            width: calc(100% - 6rem);
+            margin-right: 3rem;
+        }
+    }
 }
 .flexCenter {
     display: flex;
