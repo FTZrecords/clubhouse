@@ -9,7 +9,7 @@ export default function Home() {
       <Head></Head>
       <h1>
         <Image
-          src="/head.jpg"
+          src="/head.png"
           alt="ヘッダー画像"
           height="160"
           width="300"
@@ -88,8 +88,9 @@ export default function Home() {
       <footer>
         <p>
           ©︎FTZrecords
-          <br/>
-          <small>お問い合わせは
+          <br />
+          <small>
+            お問い合わせは
             <Link href="https://www.ftzrecords.com/#comp-jxanll648">
               <a>FTZrecoreds</a>
             </Link>
