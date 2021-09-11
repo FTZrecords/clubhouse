@@ -11,8 +11,8 @@ export default function Home() {
         <Image
           src="/head.png"
           alt="ヘッダー画像"
-          height="160"
-          width="300"
+          height="1600"
+          width="3200"
           objectFit={"cover"}
           decoding="async"
           loading="lazy"
