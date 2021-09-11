@@ -31,7 +31,7 @@ export default function Home() {
           <p>対象：応募時点で学生の方</p>
         </div>
         <iframe
-          src="https://open.spotify.com/embed/playlist/62pnS2szMPE2Sv4C3e8lS9"
+          src="https://open.spotify.com/embed/playlist/62pnS2szMPE2Sv4C3e8lS9?theme=0"
           frameBorder="0"
           allowtransparency="true"
           allow="encrypted-media"
@@ -46,7 +46,7 @@ export default function Home() {
         </Link>
       </section>
       <main>
-        <h2>楽曲配信までのステップ</h2>
+        <h2>楽曲配信までの3ステップ</h2>
         <ol>
           <li>
             <h3>アーティスト・クリエイターマッチング</h3>
@@ -86,31 +86,15 @@ export default function Home() {
         </Link>
       </section>
       <footer>
-        <p>©︎FTZrecords</p>
         <p>
-          レーベル名：FTZ records
-          <br />
-          担当者名：大川 琳生
-          <br />
-          TEL：070-8420-5822
-          <br />
-          E-Mail：info@ftzrecords.com
-          <br />
-          Twitter：@ftzrecords
-        </p>
-        <p>
-          インディーズのさらに基盤となるインターネットレーベル・キュレーションメディア
-          FTZ records
-          <br />
-          代表者：赤金 諒亮
-          <br />
-          設立：2020年02月02日
-          <br />
-          Tel：070-8420-5822
-          <br />
-          URL：http://www.ftzrecords.com
-          <br />
-          事業内容：楽曲の管理、CD等の原盤制作、アーティスト・クリエイターの発掘・育成及び管理、音楽ソフト・商品の制作
+          ©︎FTZrecords
+          <br/>
+          <small>お問い合わせは
+            <Link href="https://www.ftzrecords.com/#comp-jxanll648">
+              <a>FTZrecoreds</a>
+            </Link>
+            まで。
+          </small>
         </p>
       </footer>
     </>

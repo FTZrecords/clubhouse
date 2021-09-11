@@ -1,4 +1,4 @@
-$cMain: #f13245;
+$cMain: #f182f0;
 
 .flex {
     @media (min-width: 700px) {
@@ -113,6 +113,19 @@ footer {
     padding-bottom: 5rem;
     position: relative;
     overflow: hidden;
+    small {
+        color: rgba(#000,.5);
+        a {
+            border-bottom: solid .05em rgba(#000,.5);
+            padding: 0 .2em;
+            margin: 0 .1em;
+            transition: .1s;
+            &:hover {
+                color: #000;
+                border-color: #000;
+            }
+        }
+    }
     &:before,&:after {
         content: '';
         position: absolute;
